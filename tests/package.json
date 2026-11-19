@@ -1,0 +1,13 @@
+{
+  "name": "italiano-app-tests",
+  "private": true,
+  "type": "module",
+  "description": "Só para os testes no navegador. O app em si não tem dependências nem build.",
+  "scripts": {
+    "test": "node --test unit.test.mjs",
+    "e2e": "node e2e.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.0.0"
+  }
+}
